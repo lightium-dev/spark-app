@@ -1,0 +1,33 @@
+const challenges = [
+  { category: 'Créatif', title: 'Une histoire en 6 mots', description: 'Écris une micro-histoire en seulement six mots.', icon: '✍️' },
+  { category: 'Créatif', title: 'Collection de couleurs', description: 'Trouve 5 objets autour de toi avec des couleurs vives.', icon: '🎨' },
+  { category: 'Créatif', title: 'Dessine un animal imaginaire', description: 'Crée un animal qui n’existe pas et donne-lui un nom.', icon: '🐲' },
+  { category: 'Créatif', title: 'Écrire une carte postale', description: 'Écris un court message à une version future de toi.', icon: '💌' },
+  { category: 'Créatif', title: 'Photo minimaliste', description: 'Prends une photo simple avec juste un ou deux éléments.', icon: '📷' },
+  { category: 'Créatif', title: 'Minute poésie', description: 'Écris un petit poème en rimes simples.', icon: '📝' },
+  { category: 'Créatif', title: 'Inventer un logo', description: 'Crée un logo pour ton humeur du jour.', icon: '🟣' },
+  { category: 'Créatif', title: 'Doodle libre', description: 'Dessine un motif sans réfléchir pendant 3 minutes.', icon: '✏️' },
+  { category: 'Créatif', title: 'Créer une couverture', description: 'Imagine une couverture pour ton prochain carnet.', icon: '📚' },
+  { category: 'Créatif', title: 'Palette de ton humeur', description: 'Assortis 3 couleurs à ton état d’esprit du jour.', icon: '🟪' },
+  { category: 'Bien-être', title: 'Respire en pleine conscience', description: 'Fais 5 respirations profondes en observant ton corps.', icon: '🧘‍♂️' },
+  { category: 'Bien-être', title: 'Marche douce', description: 'Fais une promenade de 10 minutes sans écran.', icon: '🚶‍♀️' },
+  { category: 'Bien-être', title: 'Note tes trois réussites', description: 'Écris trois petites choses que tu as bien faites.', icon: '🗒️' },
+  { category: 'Bien-être', title: 'Étirements matinaux', description: 'Fais 5 minutes d’étirements simples.', icon: '🤸' },
+  { category: 'Bien-être', title: 'Écoute une chanson apaisante', description: 'Choisis une chanson et ferme les yeux pendant 2 minutes.', icon: '🎧' },
+  { category: 'Bien-être', title: 'Bois un grand verre d’eau', description: 'Hydrate ton corps en conscience.', icon: '💧' },
+  { category: 'Bien-être', title: 'Posture consciente', description: 'Vérifie ta posture et ajuste-toi pendant 1 minute.', icon: '🧍‍♂️' },
+  { category: 'Bien-être', title: 'Souris à ton reflet', description: 'Regarde-toi dans un miroir et souris doucement.', icon: '😊' },
+  { category: 'Bien-être', title: 'Pause sans notifications', description: 'Éteins les alertes pendant 15 minutes.', icon: '🔕' },
+  { category: 'Bien-être', title: 'Gratitude rapide', description: 'Pense à une chose pour laquelle tu es reconnaissant.', icon: '🙏' },
+  { category: 'Social', title: 'Complimente un proche', description: 'Envoie un message gentil à quelqu’un aujourd’hui.', icon: '💬' },
+  { category: 'Social', title: 'Partage une idée', description: 'Propose une idée créative à un ami.', icon: '💡' },
+  { category: 'Social', title: 'Invite à un café virtuel', description: 'Propose une pause à quelqu’un que tu apprécies.', icon: '☕' },
+  { category: 'Social', title: 'Écoute activement', description: 'Pose une vraie question et écoute sans interrompre.', icon: '👂' },
+  { category: 'Social', title: 'Envoie un merci', description: 'Remercie quelqu’un pour un geste récent.', icon: '🙏' },
+  { category: 'Social', title: 'Partage un sourire', description: 'Fais un geste bienveillant pour une personne proche.', icon: '🙂' },
+  { category: 'Social', title: 'Parle de ton talent', description: 'Dis à quelqu’un ce que tu fais bien.', icon: '🏅' },
+  { category: 'Social', title: 'Échange d’une recommandation', description: 'Recommande un livre, une chanson ou une vidéo.', icon: '📌' },
+  { category: 'Social', title: 'Fais un compliment sincère', description: 'Choisis une qualité que tu aimes chez quelqu’un.', icon: '🌟' }
+];
+
+export default challenges;

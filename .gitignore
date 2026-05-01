@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.env
+.DS_Store
+
+# Local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency caches
+/.pnp
+.pnp.js
+
+# Build outputs
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
